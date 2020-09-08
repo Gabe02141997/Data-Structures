@@ -7,7 +7,10 @@ class ListNode:
         self.prev = prev
         self.value = value
         self.next = next
-            
+
+
+    def __repr__(self):
+        return f"{self.value}"
 """
 Our doubly-linked list class. It holds references to 
 the list's head and tail nodes.
@@ -33,7 +36,6 @@ class DoublyLinkedList:
             return
 
         head = self.head
-        print(head.value)
         node.next = head
         self.head = node
         self.length += 1
@@ -48,11 +50,15 @@ class DoublyLinkedList:
     Returns the value of the removed Node.
     """
     def remove_from_head(self):
-        #what if there is only one node
-        if self.length == 1:
-            self.head = None
-            return
-
+        # #what if there is only one node
+        # # if self.head.next is None:
+        # #     self.head = None
+        # #     self.length -= 1
+        # #     return
+        # head = self.head
+        # self.head = self.head.next
+        # return head.value
+        pass
             
     """
     Wraps the given value in a ListNode and inserts it 
@@ -60,6 +66,12 @@ class DoublyLinkedList:
     the old tail node's next pointer accordingly.
     """
     def add_to_tail(self, value):
+        node = ListNode(value)
+        self.tail.next = node
+        node.prev = self.tail
+        self.tail = node
+        self.length += 1
+
         pass
             
     """
@@ -99,9 +111,10 @@ class DoublyLinkedList:
         pass
 
 
+
+
 node_1 = ListNode(5)
 dll = DoublyLinkedList(node_1)
-
 dll.add_to_head(8)
 
-print(dll.head.next.value)
+print(node_1)
