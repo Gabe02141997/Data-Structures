@@ -66,12 +66,11 @@ class LinkedList:
 
 
 #
-# ll = LinkedList(Node(5))
-#
-# second = Node(9)
-# third = Node(3)
-# ll.head.next = second
-# second.next = third
-# ll.tail = third
-# ll.remove_tail()
-# print(ll.tail.value)
+ll = LinkedList(Node(5))
+
+second = Node(9)
+third = Node(3)
+ll.head.next = second
+second.next = third
+ll.tail = third
+print(ll.remove_tail())
