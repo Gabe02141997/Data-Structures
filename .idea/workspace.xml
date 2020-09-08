@@ -15,7 +15,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/singly_linked_list/singly_linked_list.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="833">
+            <state relative-caret-position="680">
               <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
             </state>
           </provider>
@@ -33,8 +33,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/doubly_linked_list/doubly_linked_list.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="70" column="29" selection-start-line="70" selection-start-column="29" selection-end-line="70" selection-end-column="29" />
+            <state relative-caret-position="298">
+              <caret line="99" column="12" selection-start-line="99" selection-start-column="12" selection-end-line="99" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -42,8 +42,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/doubly_linked_list/test_doubly_linked_list.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="45" column="21" lean-forward="true" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
+            <state relative-caret-position="153">
+              <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -143,7 +143,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_doubly_linked_list.DoublyLinkedListTests.test_list_add_to_tail">
+  <component name="RunManager" selected="Python tests.Unittests for test_doubly_linked_list.DoublyLinkedListTests.test_list_remove_from_tail">
     <configuration name="doubly_linked_list" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Data-Structures" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -165,7 +165,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_doubly_linked_list.DoublyLinkedListTests.test_list_add_to_tail" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_doubly_linked_list.DoublyLinkedListTests.test_list_add_to_head" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Data-Structures" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -175,7 +175,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_doubly_linked_list.DoublyLinkedListTests.test_list_add_to_tail&quot;" />
+      <option name="_new_target" value="&quot;test_doubly_linked_list.DoublyLinkedListTests.test_list_add_to_head&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -193,6 +193,20 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for test_doubly_linked_list.DoublyLinkedListTests.test_list_remove_from_tail" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Data-Structures" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/doubly_linked_list" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_doubly_linked_list.DoublyLinkedListTests.test_list_remove_from_tail&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests in test_doubly_linked_list.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Data-Structures" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -207,27 +221,13 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in test_queue.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Data-Structures" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/queue" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/queue/test_queue.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for test_doubly_linked_list.DoublyLinkedListTests.test_list_add_to_tail" />
-        <item itemvalue="Python tests.Unittests for test_doubly_linked_list.DoublyLinkedListTests.test_list_remove_from_head" />
+        <item itemvalue="Python tests.Unittests for test_doubly_linked_list.DoublyLinkedListTests.test_list_remove_from_tail" />
         <item itemvalue="Python.doubly_linked_list" />
+        <item itemvalue="Python tests.Unittests for test_doubly_linked_list.DoublyLinkedListTests.test_list_remove_from_head" />
         <item itemvalue="Python tests.Unittests in test_doubly_linked_list.py" />
-        <item itemvalue="Python tests.Unittests in test_queue.py" />
+        <item itemvalue="Python tests.Unittests for test_doubly_linked_list.DoublyLinkedListTests.test_list_add_to_head" />
       </list>
     </recent_temporary>
   </component>
@@ -245,35 +245,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_doubly_linked_list_DoublyLinkedListTests_test_list_remove_from_head - 2020.09.08 at 14h 34m 25s.xml">
+    <history-entry file="Unittests_for_test_doubly_linked_list_DoublyLinkedListTests_test_list_remove_from_head - 2020.09.08 at 15h 34m 35s.xml">
       <configuration name="Unittests for test_doubly_linked_list.DoublyLinkedListTests.test_list_remove_from_head" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_doubly_linked_list_py - 2020.09.08 at 14h 35m 03s.xml">
+    <history-entry file="Unittests_for_test_doubly_linked_list_DoublyLinkedListTests_test_list_remove_from_head - 2020.09.08 at 15h 35m 47s.xml">
+      <configuration name="Unittests for test_doubly_linked_list.DoublyLinkedListTests.test_list_remove_from_head" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_doubly_linked_list_py - 2020.09.08 at 15h 36m 49s.xml">
       <configuration name="Unittests in test_doubly_linked_list.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_doubly_linked_list_DoublyLinkedListTests_test_list_remove_from_head - 2020.09.08 at 14h 35m 09s.xml">
+    <history-entry file="Unittests_for_test_doubly_linked_list_DoublyLinkedListTests_test_list_remove_from_head - 2020.09.08 at 15h 36m 57s.xml">
       <configuration name="Unittests for test_doubly_linked_list.DoublyLinkedListTests.test_list_remove_from_head" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_doubly_linked_list_DoublyLinkedListTests_test_list_remove_from_head - 2020.09.08 at 14h 36m 47s.xml">
+    <history-entry file="Unittests_for_test_doubly_linked_list_DoublyLinkedListTests_test_list_remove_from_head - 2020.09.08 at 15h 39m 16s.xml">
       <configuration name="Unittests for test_doubly_linked_list.DoublyLinkedListTests.test_list_remove_from_head" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_doubly_linked_list_DoublyLinkedListTests_test_list_remove_from_head - 2020.09.08 at 14h 36m 51s.xml">
+    <history-entry file="Unittests_for_test_doubly_linked_list_DoublyLinkedListTests_test_list_remove_from_head - 2020.09.08 at 15h 41m 59s.xml">
       <configuration name="Unittests for test_doubly_linked_list.DoublyLinkedListTests.test_list_remove_from_head" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_doubly_linked_list_DoublyLinkedListTests_test_list_remove_from_head - 2020.09.08 at 14h 37m 36s.xml">
+    <history-entry file="Unittests_for_test_doubly_linked_list_DoublyLinkedListTests_test_list_remove_from_head - 2020.09.08 at 15h 42m 59s.xml">
       <configuration name="Unittests for test_doubly_linked_list.DoublyLinkedListTests.test_list_remove_from_head" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_doubly_linked_list_DoublyLinkedListTests_test_list_remove_from_head - 2020.09.08 at 14h 37m 58s.xml">
-      <configuration name="Unittests for test_doubly_linked_list.DoublyLinkedListTests.test_list_remove_from_head" configurationId="tests" />
+    <history-entry file="Unittests_for_test_doubly_linked_list_DoublyLinkedListTests_test_list_remove_from_tail - 2020.09.08 at 15h 53m 58s.xml">
+      <configuration name="Unittests for test_doubly_linked_list.DoublyLinkedListTests.test_list_remove_from_tail" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_doubly_linked_list_DoublyLinkedListTests_test_list_add_to_tail - 2020.09.08 at 14h 42m 25s.xml">
-      <configuration name="Unittests for test_doubly_linked_list.DoublyLinkedListTests.test_list_add_to_tail" configurationId="tests" />
+    <history-entry file="Unittests_for_test_doubly_linked_list_DoublyLinkedListTests_test_list_remove_from_tail - 2020.09.08 at 15h 54m 34s.xml">
+      <configuration name="Unittests for test_doubly_linked_list.DoublyLinkedListTests.test_list_remove_from_tail" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_doubly_linked_list_DoublyLinkedListTests_test_list_add_to_tail - 2020.09.08 at 14h 43m 06s.xml">
-      <configuration name="Unittests for test_doubly_linked_list.DoublyLinkedListTests.test_list_add_to_tail" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_doubly_linked_list_DoublyLinkedListTests_test_list_add_to_tail - 2020.09.08 at 14h 43m 10s.xml">
-      <configuration name="Unittests for test_doubly_linked_list.DoublyLinkedListTests.test_list_add_to_tail" configurationId="tests" />
+    <history-entry file="Unittests_for_test_doubly_linked_list_DoublyLinkedListTests_test_list_remove_from_tail - 2020.09.08 at 15h 56m 22s.xml">
+      <configuration name="Unittests for test_doubly_linked_list.DoublyLinkedListTests.test_list_remove_from_tail" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -285,7 +285,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36619717" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38678223" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -347,8 +347,18 @@
     </entry>
     <entry file="file://Z:/Program Files (x86)/Python/Lib/unittest/case.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="675" selection-start-line="675" selection-end-line="675" />
+        <state relative-caret-position="135">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doubly_linked_list/test_doubly_linked_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -361,25 +371,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/singly_linked_list/singly_linked_list.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
+        <state relative-caret-position="680">
           <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doubly_linked_list/test_doubly_linked_list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="45" column="21" lean-forward="true" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/doubly_linked_list/doubly_linked_list.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="70" column="29" selection-start-line="70" selection-start-column="29" selection-end-line="70" selection-end-column="29" />
+        <state relative-caret-position="298">
+          <caret line="99" column="12" selection-start-line="99" selection-start-column="12" selection-end-line="99" selection-end-column="12" />
         </state>
       </provider>
     </entry>
