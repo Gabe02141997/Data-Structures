@@ -193,9 +193,11 @@ class DoublyLinkedList:
         while start_h is not None:
             if start_h.value > max_value:
                 max_value = start_h.value
-            start_h = start_h.next
 
+            start_h = start_h.next
         return max_value
+
+
 
 
 
