@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3f8e85a8-5773-4a25-9025-b47920af4113" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_search_tree/binary_search_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/binary_search_tree/binary_search_tree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binary_search_tree/test_binary_search_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/binary_search_tree/test_binary_search_tree.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/binary_search_tree/binary_search_tree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="69" column="29" lean-forward="true" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
+            <state relative-caret-position="765">
+              <caret line="72" column="8" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -24,8 +26,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/binary_search_tree/test_binary_search_tree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+            <state relative-caret-position="87">
+              <caret line="63" column="23" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="23" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -36,7 +38,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stack/stack.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
+            <state relative-caret-position="318">
               <caret line="49" column="41" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
             </state>
           </provider>
@@ -62,12 +64,13 @@
         <option value="$PROJECT_DIR$/queue/queue.py" />
         <option value="$PROJECT_DIR$/doubly_linked_list/doubly_linked_list.py" />
         <option value="$PROJECT_DIR$/binary_search_tree/example.py" />
+        <option value="$PROJECT_DIR$/binary_search_tree/test_binary_search_tree.py" />
         <option value="$PROJECT_DIR$/binary_search_tree/binary_search_tree.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="953" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -75,38 +78,10 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Data-Structures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Data-Structures" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Data-Structures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Data-Structures" type="462c0819:PsiDirectoryNode" />
-              <item name="binary_search_tree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Data-Structures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Data-Structures" type="462c0819:PsiDirectoryNode" />
-              <item name="doubly_linked_list" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Data-Structures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Data-Structures" type="462c0819:PsiDirectoryNode" />
-              <item name="stack" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../CS28/Week3/Data-Structures" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../guided/CS35_DataStructures_GP" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -120,7 +95,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_binary_search_tree.BinarySearchTreeTests.test_for_each">
+  <component name="RunManager" selected="Python tests.Unittests for test_binary_search_tree.BinarySearchTreeTests.test_print_traversals">
     <configuration name="binary_search_tree" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Data-Structures" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -177,6 +152,20 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for test_binary_search_tree.BinarySearchTreeTests.test_print_traversals" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Data-Structures" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/binary_search_tree" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_binary_search_tree.BinarySearchTreeTests.test_print_traversals&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests for test_doubly_linked_list.DoublyLinkedListTests.test_list_move_to_front" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Data-Structures" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -191,27 +180,13 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in test_doubly_linked_list.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Data-Structures" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/doubly_linked_list" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/doubly_linked_list/test_doubly_linked_list.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for test_binary_search_tree.BinarySearchTreeTests.test_for_each" />
+        <item itemvalue="Python tests.Unittests for test_binary_search_tree.BinarySearchTreeTests.test_print_traversals" />
         <item itemvalue="Python.binary_search_tree" />
+        <item itemvalue="Python tests.Unittests for test_binary_search_tree.BinarySearchTreeTests.test_for_each" />
         <item itemvalue="Python.example" />
         <item itemvalue="Python tests.Unittests for test_doubly_linked_list.DoublyLinkedListTests.test_list_move_to_front" />
-        <item itemvalue="Python tests.Unittests in test_doubly_linked_list.py" />
       </list>
     </recent_temporary>
   </component>
@@ -229,27 +204,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_doubly_linked_list_DoublyLinkedListTests_test_list_move_to_front - 2020.09.09 at 13h 03m 35s.xml">
-      <configuration name="Unittests for test_doubly_linked_list.DoublyLinkedListTests.test_list_move_to_front" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_binary_search_tree_BinarySearchTreeTests_test_for_each - 2020.09.09 at 14h 22m 52s.xml">
-      <configuration name="Unittests for test_binary_search_tree.BinarySearchTreeTests.test_for_each" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_binary_search_tree_BinarySearchTreeTests_test_for_each - 2020.09.09 at 14h 23m 44s.xml">
-      <configuration name="Unittests for test_binary_search_tree.BinarySearchTreeTests.test_for_each" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_binary_search_tree_BinarySearchTreeTests_test_for_each - 2020.09.09 at 14h 25m 39s.xml">
-      <configuration name="Unittests for test_binary_search_tree.BinarySearchTreeTests.test_for_each" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_binary_search_tree_BinarySearchTreeTests_test_for_each - 2020.09.09 at 14h 26m 01s.xml">
-      <configuration name="Unittests for test_binary_search_tree.BinarySearchTreeTests.test_for_each" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_binary_search_tree_BinarySearchTreeTests_test_for_each - 2020.09.09 at 14h 26m 23s.xml">
-      <configuration name="Unittests for test_binary_search_tree.BinarySearchTreeTests.test_for_each" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_binary_search_tree_BinarySearchTreeTests_test_for_each - 2020.09.09 at 14h 28m 40s.xml">
-      <configuration name="Unittests for test_binary_search_tree.BinarySearchTreeTests.test_for_each" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_test_binary_search_tree_BinarySearchTreeTests_test_for_each - 2020.09.09 at 14h 32m 34s.xml">
       <configuration name="Unittests for test_binary_search_tree.BinarySearchTreeTests.test_for_each" configurationId="tests" />
     </history-entry>
@@ -259,9 +213,30 @@
     <history-entry file="Unittests_for_test_binary_search_tree_BinarySearchTreeTests_test_for_each - 2020.09.09 at 14h 33m 06s.xml">
       <configuration name="Unittests for test_binary_search_tree.BinarySearchTreeTests.test_for_each" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_test_binary_search_tree_BinarySearchTreeTests_test_print_traversals - 2020.09.10 at 08h 40m 19s.xml">
+      <configuration name="Unittests for test_binary_search_tree.BinarySearchTreeTests.test_print_traversals" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_binary_search_tree_BinarySearchTreeTests_test_print_traversals - 2020.09.10 at 08h 41m 49s.xml">
+      <configuration name="Unittests for test_binary_search_tree.BinarySearchTreeTests.test_print_traversals" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_binary_search_tree_BinarySearchTreeTests_test_print_traversals - 2020.09.10 at 09h 11m 52s.xml">
+      <configuration name="Unittests for test_binary_search_tree.BinarySearchTreeTests.test_print_traversals" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_binary_search_tree_BinarySearchTreeTests_test_print_traversals - 2020.09.10 at 09h 12m 23s.xml">
+      <configuration name="Unittests for test_binary_search_tree.BinarySearchTreeTests.test_print_traversals" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_binary_search_tree_BinarySearchTreeTests_test_print_traversals - 2020.09.10 at 09h 13m 06s.xml">
+      <configuration name="Unittests for test_binary_search_tree.BinarySearchTreeTests.test_print_traversals" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_binary_search_tree_BinarySearchTreeTests_test_print_traversals - 2020.09.10 at 12h 41m 06s.xml">
+      <configuration name="Unittests for test_binary_search_tree.BinarySearchTreeTests.test_print_traversals" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_binary_search_tree_BinarySearchTreeTests_test_print_traversals - 2020.09.10 at 12h 42m 30s.xml">
+      <configuration name="Unittests for test_binary_search_tree.BinarySearchTreeTests.test_print_traversals" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.6057692" />
@@ -269,13 +244,13 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49893162" weight="0.3488624" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49893162" visible="true" weight="0.4951246" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.33150986" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.33150986" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50106835" side_tool="true" weight="0.45185995" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -357,13 +332,6 @@
         <state relative-caret-position="-2177" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stack/stack.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="49" column="41" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/singly_linked_list/singly_linked_list.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="893">
@@ -403,10 +371,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/stack/stack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="49" column="41" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/binary_search_tree/test_binary_search_tree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+        <state relative-caret-position="87">
+          <caret line="63" column="23" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="23" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -415,8 +390,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/binary_search_tree/binary_search_tree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="69" column="29" lean-forward="true" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
+        <state relative-caret-position="765">
+          <caret line="72" column="8" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="8" />
         </state>
       </provider>
     </entry>
