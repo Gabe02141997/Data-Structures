@@ -1,5 +1,6 @@
-"""
-Binary search trees are a data structure that enforce an ordering over 
+from queue.queue import Queue
+
+"""Binary search trees are a data structure that enforce an ordering over
 the data they store. That ordering in turn makes it a lot more efficient 
 at searching for a particular piece of data in the tree. 
 
@@ -81,7 +82,17 @@ class BSTNode:
     # Print the value of every node, starting with the given node,
     # in an iterative breadth first traversal
     def bft_print(self):
-        pass
+        queue_list = Queue()
+        queue_list.enqueue(self)
+        while len(queue_list) > 0:
+            node = queue_list.dequeue()
+            print(node.value)
+
+            if node.left:
+                queue_list.enqueue(node.left)
+            if node.right:
+                queue_list.enqueue(node.right)
+
 
     # Print the value of every node, starting with the given node,
     # in an iterative depth first traversal
@@ -113,7 +124,7 @@ bst.insert(4)
 bst.insert(2)
 
 bst.bft_print()
-bst.dft_print()
+# bst.dft_print()
 
 print("elegant methods")
 print("pre order")
